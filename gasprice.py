@@ -29,7 +29,7 @@ distance = min_price["dist"]
 
 #part2: sending the mail
 # set the text I want to send in the mail later
-text = "Der Preis von " + str(price) + " €" + " der Tankstelle " + name  + " ist am günstigsten." + " Die Tankstelle ist " + str(distance) + " km entfehrnt."
+text = "Der Preis von " + str(price) + " €" + " der Tankstelle " + name  + " ist am günstigsten." + " Die Tankstelle ist " + str(distance) + " km entfernt."
 
 #Change the Subject of the mail if the gas price is under 1.200€
 if price < 1.200:
